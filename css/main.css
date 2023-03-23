@@ -1,0 +1,85 @@
+/* FONT BASE */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+
+/* @VARIABLES */
+:root {
+  --brand: #1b1d1c;
+  --secondary: #1a99ea;
+  --white: #ffffff;
+}
+
+/* @RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--brand);
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* @HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-right: 8rem;
+  padding-left: 8rem;
+  height: 3rem;
+}
+
+.header__brand {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.header__brand h1 {
+  color: var(--white);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.header__brand h1 b {
+  color: var(--secondary);
+}
+
+.header__brand ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__brand ul li {
+  color: var(--white);
+  font-size: 0.9rem;
+  line-height: 1.125rem;
+  list-style-type: none;
+}
+
+.header__actions {
+  display: block;
+}
+
+.header__actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  padding: 0.4rem;
+  width: 5.8125rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+/* @MAIN CONTENT */
+main {
+  color: var(--white);
+  margin-top: 3rem;
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
