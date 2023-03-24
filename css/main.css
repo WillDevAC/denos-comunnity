@@ -3,7 +3,7 @@
 
 /* @VARIABLES */
 :root {
-  --brand: #1b1d1c;
+  --dark: #1b1d1c;
   --blue: #1a99ea;
   --white: #ffffff;
 }
@@ -14,8 +14,16 @@
   padding: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
-  background-color: var(--brand);
+  background-color: var(--dark);
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
@@ -53,11 +61,10 @@ header {
   gap: 2rem;
 }
 
-.header__brand ul li {
+.header__brand ul li a {
   color: var(--white);
   font-size: 0.9rem;
   line-height: 1.125rem;
-  list-style-type: none;
 }
 
 .header__actions {
