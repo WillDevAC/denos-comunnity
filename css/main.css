@@ -4,7 +4,7 @@
 /* @VARIABLES */
 :root {
   --brand: #1b1d1c;
-  --secondary: #1a99ea;
+  --blue: #1a99ea;
   --white: #ffffff;
 }
 
@@ -37,13 +37,14 @@ header {
 }
 
 .header__brand h1 {
-  color: var(--white);
+  color: var(--blue);
   font-size: 1.875rem;
   line-height: 2.25rem;
+  letter-spacing: 0.3rem;
 }
 
 .header__brand h1 b {
-  color: var(--secondary);
+  color: var(--white);
 }
 
 .header__brand ul {
@@ -78,6 +79,7 @@ header {
 
 /* @MAIN CONTENT */
 main {
+  display: block;
   color: var(--white);
   margin-top: 3rem;
   margin-right: 8rem;
